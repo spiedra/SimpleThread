@@ -5,6 +5,8 @@
  */
 package Main;
 
+import Domain.ClassThread;
+
 /**
  *
  * @author spiedra
@@ -15,7 +17,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        ClassThread threadOne = new ClassThread("Thread 1");
+        ClassThread threadTwo = new ClassThread("Thread two");
+        threadOne.start();
+        threadTwo.start();
     }
 
 }
