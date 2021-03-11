@@ -18,11 +18,13 @@
 *.zip
 *.tar.gz
 *.rar
+*.xml
+*.mf
 
 hs_err_pid*
 
 # Netbeans
-**/nbproject/private/
+**/nbproject
 **/nbproject/Makefile-*.mk
 **/nbproject/Package-*.bash
 build/
